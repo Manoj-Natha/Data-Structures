@@ -1,0 +1,70 @@
+
+Project #4
+
+Due Dates:  Saturday, October 31 at 11:59pm 
+
+Submit:    eLearning
+
+Late Policy:  -10 points per hour late
+
+Instructions: This is an individual assignment.  All work should be your own.
+
+
+
+Objectives:
+
+     Create a hash table.
+     Use the hash table to improve a poor-performing program.
+
+
+Description:
+
+     Attached is a program file named DupLL.java.  Its purpose is to read
+     a file of phone numbers and report duplicates.  Its main method opens a 
+     file of 5003 phone numbers (ph.txt) in which one number has one duplicate
+     and another number has two duplicates.
+
+     It uses a LinkedList with a very poor-performing algorithm to find the duplicates.
+     Due to the nested loops, the same duplicate will be reported more than once.
+
+     You need to convert this program to use a hash table and improve the
+     algorithm for finding the duplicates, reporting each duplicate once.  
+
+     The hash table should be your own creation, not copied from the textbook 
+     or other sources. You should think through each required method and design 
+     and code it yourself.
+
+     The design of the hash table is up to you, as long as it is a hash table
+     that you created.
+
+
+Questions:
+
+     Submit answers to these questions in addition to your source code:
+
+     1) Explain the algorithm in the original program, including
+        why duplicates are reported more than once.
+
+     2) What is the Big-O running time of the original program?  
+        Explain your answer.
+
+     3) Explain the algorithm in your new program.
+
+     4) What is the Big-O running time of the new program?
+        Explain your answer.
+
+     5) How long does the original program take to complete?
+        How long does the new program take to complete?
+
+
+Scoring:
+     Hash table:  50 points
+     Program with revised algorithm:  40 points
+     Questions:   10 points
+
+
+Submit to eLearning:
+     Questions.txt  (or .doc, .docx, etc.)
+     DupHT.java
+     MyHashTable.java
+

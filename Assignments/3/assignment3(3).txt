@@ -1,0 +1,117 @@
+Assignment #3
+
+
+Due Dates: Wednesday, September 23 at 11:59pm 
+
+Submit:    eLearning
+
+Late Policy:  -10 points per hour late
+
+Instructions: This is an individual assignment.  Answers should be your own work.
+
+
+Chapter 3
+
+
+10 points
+1.  What are some advantages of a linked list versus an array?
+
+
+15 points
+2.  What is the Big-O running time of the following code fragment?
+    Assume lst1 has N items, and lst2 is initially empty.
+
+   public static void add( List<Integer> lst1, List<Integer> lst2)
+   {
+      for ( Integer x : lst1 )
+         lst2.add(0, x);        // add to front
+   }
+
+
+   a.  If an ArrayList is passed for lst1 and lst2.  Explain your answer.
+   b.  If a LinkedList is passed for lst1 and lst2.  Explain your answer.
+
+
+15 points
+3.  What is the Big-O running time of the following code fragment?
+
+   public static void erase( List<Integer> lst )
+   {
+      Iterator<Integer> itr = lst.iterator();
+
+      while ( itr.hasNext() )
+      {
+         Integer x = itr.next();
+         itr.remove();
+      }
+
+   }
+
+   a.  If an ArrayList is passed for lst.  Explain your answer.
+   b.  If a LinkedList is passed for lst.  Explain your answer.
+
+
+15 points
+4.  What is the Big-O running time of the following code fragment?
+    Assume lst1 has N items, and lst2 has N items.
+
+   public static int Count( List<Integer> lst1, List<Integer> lst2)
+   {
+      Iterator<Integer> itr1 = lst1.iterator();
+
+      int count=0;
+      while ( itr1.hasNext() )
+      {
+         Integer x = itr1.next();
+         Iterator<Integer> itr2 = lst2.iterator();
+         while ( itr2.hasNext() )
+            if ( x.equals( itr2.next()) )
+               count++;
+      }
+
+      return count;
+   }
+
+
+   a.  If an ArrayList is passed for lst1 and lst2.  Explain your answer.
+   b.  If a LinkedList is passed for lst1 and lst2.  Explain your answer.
+
+
+15 points
+5.  What is the Big-O running time of the following code fragment?
+
+
+      public static int calc( List<Integer> lst )
+      {
+         int count = 0;
+         int N = lst.size();
+
+         for ( int i=0; i<N; i++)
+         {
+            if (lst.get(i) > 0)
+               sum += lst.get(i);
+            else
+               sum += lst.get(i) * lst.get(i);
+         }
+         return sum;
+      } 
+
+
+   a.  If an ArrayList is passed for lst.  Explain your answer.
+   b.  If a LinkedList is passed for lst.  Explain your answer.
+
+
+15 points
+6. Suppose a Java method receives a List<Integer> and reverses the order of the items it contains by removing each item from the front of the list, adding each item to a Stack<Integer>, and then removing the items from the stack and inserting each item to the end of the list.  
+What is the expected Big-O running time if:
+   a.  If an ArrayList is passed.  Explain your answer.
+   b.  If a LinkedList is passed.  Explain your answer.
+
+15 points
+7. Show each step of converting a+b*c+(d-e) from infix to postfix notation, using the algorithm described in the textbook that uses a stack.
+
+
+Submit to eLearning:
+    hw3.doc (.doc can be .txt, .jpg, etc.)
+
+

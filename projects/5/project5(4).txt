@@ -1,0 +1,39 @@
+
+Project #5
+
+Due Dates:  Monday, November 30 at 11:59pm 
+
+Submit:    eLearning
+
+Late Policy:  -10 points per hour late
+
+Instructions: This is an individual assignment.  All work should be your own.
+
+
+
+Objective:
+
+     Write and compare different sorting algorithms.
+
+
+Overview:
+
+     Write a bucket sort routine and compare it to a quick sort and insertion sort.
+
+
+Details:
+
+     The book provides a Sort class that contains methods for various sorting algorithms.
+
+     Add a new method to this class for a bucket sort.  This method should be written by you based on your understanding of the algorithm.  You should not use one found on the Internet.
+
+     Change the main method to generate a report showing runs of various sizes and the resulting running times for each of these:  bucket sort, quick sort, insertion sort.
+
+     After running your program, create a line graph (in Excel or other) that plots the running times.  Include in the graph the lines for N, N Log N, N*N, for comparison, or make a separate graph showing these three functions.
+
+
+
+Submit to eLearning:
+     Sort.java
+     Graph.jpg (or other image format)
+
